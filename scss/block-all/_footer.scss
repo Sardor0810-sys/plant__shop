@@ -1,0 +1,88 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+    &__title{
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #156963;
+    }
+    &__text{
+        font-size: 13px;
+        line-height: 20px;
+        color: #4F4F4F;
+        width: 282px;
+    }
+    &__text span{
+        font-size: 16px;
+        line-height: 19px;
+        color: #333333;
+        display: flex;
+        margin-top: 24px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+     &__subtitle{
+        font-size: 16px;
+        line-height: 16px;
+        color: #000000;
+        margin-bottom: 20px;
+     }
+     &__link{
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        
+     }
+     &__item:hover{
+         transform: scale(1.1);
+     }
+     &__item{
+         margin-bottom: 14px;
+         transition: 0.4s;
+     }
+     &__form{
+         display: flex;
+         flex-direction: column;
+     }
+     &__input{
+        font-size: 12px;
+        line-height: 16px;
+        color: #000000;
+        border: 1px solid #F2F2F2;
+        border-radius: 2px;
+        outline: none;
+        padding: 8px 13px;
+        margin: 14px 0px;
+     }
+     &__button{
+        font-size: 8px;
+        line-height: 14px;        
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        width: 51px;
+        height: 22px;
+        background: #156963;
+        backdrop-filter: blur(10px);
+        outline: none;
+        border-radius: 2px;
+        border: 1px solid #156963;
+        transition: 0.4s ;
+     }
+     &__button:hover{
+         transform: translateX(20px);
+         width: 120px;
+         height: 40px;
+         font-size: 16px;
+     }
+}
+
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

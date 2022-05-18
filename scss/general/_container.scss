@@ -1,0 +1,15 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,115 @@
+.header{
+    position: relative;
+    padding-top: 40px;
+    
+    &__img{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__logo{
+        position: absolute;
+        top: 55px;
+        z-index: 9999;
+    }
+    &__list{
+        display: flex;
+        justify-content: end;
+    }
+    &__form{
+        display: flex;
+        align-items: center;
+        outline: hidden;
+        cursor: pointer;
+        transition: 0.5s linear;
+        margin-right: 35px;
+    }
+    &__search{
+        padding: 5px;
+        border: none;
+        outline: none;
+        width: 0px;
+        transition: 0.5s linear;
+    }
+    &__form:hover &__search{
+        width: 120px;
+    }
+    &__link{
+        margin-right: 8px;
+        margin-left: 40px;
+    }
+    &__button{
+        font-weight: 600;
+        border: 1px solid #fff;
+        text-decoration: none;
+        outline: none;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 8px 32px;
+        color: #156963;
+        background-color: #fff;
+        margin-right: 8px;
+        transition: 0.4s;
+    }
+    &__button:hover{
+        color: #fff;
+        background-color: #156963;
+    }
+    &__btn{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 8px 32px;
+        border: 1px solid #156963;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background: #156963;
+        transition: 0.5s;
+    }
+    &__btn:hover{
+        background-color: #fff;
+        color: #156963;
+    }
+    &__card{
+        transform: translateX(100px);
+    }
+    &__title{
+        font-size: 68px;
+        line-height: 83px;
+        color: #156963;
+        width: 553px;
+    }
+    &__text{
+        font-size: 18px;
+        line-height: 32px;
+        color: #2C1500;
+        opacity: 0.8;
+        width: 493px;
+        margin-top: 24px;
+        margin-bottom: 110px;
+    }
+    &__connection{
+        display: flex;
+        justify-content: end;
+    }
+    &__links{
+        padding: 40px 49px;
+        font-size: 24px;
+        line-height: 29px;
+        color: #333333;
+    }
+    &__links:nth-child(2){
+        background-color: #156963;
+    }
+    &__links:nth-child(2) &__span{
+        color: #fff;
+    }
+    &__span{
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        margin-top: 13px;
+        color: #156963;
+    }
+}

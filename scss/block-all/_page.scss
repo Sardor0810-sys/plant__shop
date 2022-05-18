@@ -1,0 +1,51 @@
+.page{
+    padding-top: 140px;
+    padding-bottom: 50px;
+
+    &__text{
+        font-size: 10px;
+        line-height: 16px;
+        color: #2C1500;
+        width: 236px;
+        margin-top: 10px;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__card{
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        padding: 16px;
+    }
+    &__title{
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &__select{
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        padding: 8px;
+    }
+    &__box:nth-child(2){
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+    &__name{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    &__price{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+
+}
